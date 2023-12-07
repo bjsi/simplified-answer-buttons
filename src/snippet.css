@@ -1,3 +1,15 @@
-[data-rem-tags~="plugin-style"] {
-  background: orange;
+.rn-queue__answer-btn--immediately {
+  display: none;
+}
+
+.rn-queue__answer-btn--partial {
+  display: none;
+}
+
+.rn-queue__answer-btn--too-soon {
+  display: none;
+}
+
+.spaced-repetition__accuracy-buttons {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 }

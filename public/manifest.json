@@ -1,9 +1,9 @@
 {
   "manifestVersion": 1,
-  "id": "snippet_template",
-  "name": "Snippet Template",
-  "author": "remnote",
-  "repoUrl": "https://www.google.com",
+  "id": "simplified-answer-buttons",
+  "name": "Simplified Answer Buttons",
+  "author": "Jamesb",
+  "repoUrl": "https://github.com/bjsi/simplified-answer-buttons",
   "version": {
     "major": 0,
     "minor": 0,
@@ -11,12 +11,12 @@
   },
   "theme": [],
   "enableOnMobile": false,
-  "description": "",
+  "description": "Only shows the \"Forgot\" and \"Recalled with Effort\" answer buttons.",
   "requestNative": false,
   "requiredScopes": [
     {
       "type": "All",
-      "level": "ReadCreateModify"
+      "level": "Read"
     }
   ]
 }
